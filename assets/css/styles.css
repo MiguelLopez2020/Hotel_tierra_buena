@@ -66,3 +66,19 @@ body {
     75% { margin-left: -300%;}
     100% { margin-left: -300%;}
 }
+
+.options{
+    background-color: rgb(214, 214, 214);
+    height: auto;
+}
+
+.options p{
+    
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+.optionA{
+    height: 50%;
+}
