@@ -69,7 +69,11 @@ body {
 
 .options{
     background-color: rgb(214, 214, 214);
-    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 
 .options p{
@@ -80,5 +84,21 @@ body {
     
 }
 .optionA{
-    height: 50%;
+
+    border: black solid 2px;
+    margin: 0 66% 0 0 
+    
 }
+.optionB{
+
+    border: black solid 2px;
+    margin: 0 33% 0 33% 
+    
+}
+.optionC{
+
+    border: black solid 2px;
+    margin: 0 0 0 66% 
+    
+}
+
