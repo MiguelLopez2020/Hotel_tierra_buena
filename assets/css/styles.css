@@ -202,7 +202,8 @@ padding: 15px;
 .reserva{
     margin-bottom: 10px;
 }
-.contenedor {
+
+.contenedor2 {
     height: 50px;
     background: rgb(253, 253, 115);
     display: flex;
@@ -212,7 +213,17 @@ padding: 15px;
 
 
 }
+.contenedor {
+    height: 30px;
+    background: rgb(253, 253, 115);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    margin: 0px 
+
+}
+
 
 .elemento{
-margin: 0px;
+    padding: 5px ;
 }
