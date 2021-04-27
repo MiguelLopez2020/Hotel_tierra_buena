@@ -15,11 +15,26 @@ function consulta() {
     var mesSal = y.getMonth();
     var diaSal = y.getDate();
 
-    alert(x)
 
-    if (añoToday < añoLle && mesToday < mesLle && diaToday < diaLle) {
+
+    if (añoToday <= añoLle && mesToday <= mesLle && diaToday <= diaLle) {
+        Swal.fire('no puedes reservar para hoy o anteriores dias')
+    } else if () {
+
+        Swal.fire('Selecciona tu fecha de llegada y de regreso')
+
     }
-
 }
 
+function selecciona() {
+    var hotel = document.getElementById("htl").value
+
+    if (hotel != " ") {
+        function consulta()
+
+    } else (){
+        Swal.fire('Seleciona tu opcion de hospedaje')
+
+    }
+}
 
