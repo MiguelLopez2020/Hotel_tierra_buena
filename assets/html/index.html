@@ -11,27 +11,27 @@
 
 </head>
 <header>
-    <div class="contenedor";>
-        
+    <div class="contenedor" ;>
+
         <div class="elemento 2">
             <p> <a href="###"></a> Ingresar</p>
         </div>
         <div class="elemento 1"><img src="../img/user.png" width="30px" height="30px" alt=""></div>
-        </div>
-      
+    </div>
+
 </header>
 
 <body>
     <div class="contenedor2">
-        
+
 
         <div class="elemento"><img src="../img/logo_nuestrat.png" width="350px" height="350px" alt=""></div>
-        
+
         <div class="medidas">
-            <p> <a href="medidas.html"></a> Nuestras medidas de bioseguridad  </p>
+            <p> <a href="medidas.html"></a> Nuestras medidas de bioseguridad </p>
         </div>
     </div>
-    
+
     <div class="navBar">
 
 
@@ -53,16 +53,22 @@
     </div>
     <div class="reserva">
         <form action="" class="parameters">
-
             <label for="">Fecha de Llegada</label>
-            <input type="date" name="" id="" placeholder="Seleccione hotel">
+            <input type="date" name="" id="Fecha1">
             <label for="">Fecha de Salida</label>
-            <div><input type="date" name="" id="" placeholder="Fecha de llegada"></div>
+            <div><input type="date" name="" id="Fecha2"></div>
             <label for=""></label> <br>
-            <div><input type="text" name="" id="" placeholder="Fecha de Salida"></div>
-            <div><input type="text" name="" id="" placeholder="inentendible"></div>
-            <div><input type="text" name="" id="" placeholder="Codigo de descuento?"></div>
-            <button>Consultar</button>
+            <div>
+                <label for="">Selecciona el hotel</label>
+                <select name="" id="">
+                    <option value="">Hotel Realeza</option>
+                    <option value="">Pasarela Hotel</option>
+                    <option value="">Hotel El Bosque</option>
+                </select>
+            </div>
+
+
+            <button onclick="consulta()">Consultar</button>
         </form>
     </div>
     <div class="slider">
@@ -119,10 +125,12 @@
                 </div>
             </div>
         </footer>
+        <script src="../js/logica.js"></script>
         <script src="../js/jquery-3.6.0.min.js"></script>
         <script src="../js/popper.min.js"></script>
         <script src="../js/sweetalert2@10.js"></script>
         <script src="../js/bootstrap.js"></script>
+
 
 </body>
 
