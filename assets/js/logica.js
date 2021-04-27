@@ -15,8 +15,9 @@ function consulta() {
     var mesSal = y.getMonth();
     var diaSal = y.getDate();
 
+    alert(x)
+
     if (añoToday < añoLle && mesToday < mesLle && diaToday < diaLle) {
-document
     }
 
 }
