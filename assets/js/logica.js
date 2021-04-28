@@ -13,8 +13,6 @@ function consulta() {
     //fecha de salida
     var y2 = y.split(" ")[0]
 
-<<<<<<< HEAD
-=======
     var y3 = y2.substring(0, 4)//año salida
     var y4 = y2.substring(5, 7)//mes salida
     var y5 = y2.substring(8, 10)//dia salida
@@ -38,28 +36,7 @@ function consulta() {
     } else if (x3 != "" && x4 != "" && x5 != "" && y3 === "" && y4 === "" && y5 === "") {
         console.log("no has seleccionado una fecha de salida")
     }
->>>>>>> miguel
 
-
-    if (añoToday <= añoLle && mesToday <= mesLle && diaToday <= diaLle) {
-        Swal.fire('no puedes reservar para hoy o anteriores dias')
-    } else if () {
-
-        Swal.fire('Selecciona tu fecha de llegada y de regreso')
-
-    }
-}
-
-function selecciona() {
-    var hotel = document.getElementById("htl").value
-
-    if (hotel != " ") {
-        function consulta()
-
-    } else (){
-        Swal.fire('Seleciona tu opcion de hospedaje')
-
-    }
 }
 
 
