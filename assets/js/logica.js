@@ -17,26 +17,28 @@ function consulta() {
     var y4 = y2.substring(5, 7)//mes salida
     var y5 = y2.substring(8, 10)//dia salida
 
+
     //fecha del dia de hoy
     var anoToday = z.getFullYear();//año actual
     var mesToday = z.getMonth();//mes actual
     var diaToday = z.getDate();//dia actual
 
 
+    if (x3 < anoToday || x4 < mesToday || x5 < diaToday || x3 === "" || x4 === "" || x5 === "") {
+        console.log("Reserva en dias anteriores o no has seleccionado fechas")
 
-    if (x3 <= anoToday || x4 <= mesToday || x5 <= diaToday && y3 === "" && y4 === "" && y5 === "") {
-        console.log("Revisa si estas reservando en fechas anteriores o si no tienes seleccionada una fecha de salida")
+    } else if (x3 != "" || x4 != "" || x5 != "" || y3 === " " || y4 === " " || y5 === "") {
+        console.log("no has seleccionado una fecha de salida")
 
-    } else if (x3 === "" && x4 === "" && x5 === "" && y3 === "" && y4 === "" && y5 === "") {
-        console.log("no has seleccionado fechas ")
-
-    } else if (x3 === "" && x4 === "" && x5 === "" && y3 != "" && y4 != "" && y5 != "") {
+    } else if (x3 === "" || x4 === "" || x5 === "" && y3 != "" || y4 != "" || y5 != "") {
         console.log("no has seleccionado una fecha de llegada")
 
-    } else if (x3 != "" && x4 != "" && x5 != "" && y3 === "" && y4 === "" && y5 === "") {
-        console.log("no has seleccionado una fecha de salida")
-    } else if (x3 > anoToday || x4 > mesToday || x5 > diaToday && y3 === "" && y4 === "" && y5 === "")
+    } else if (x3 > anoToday || x4 > mesToday || x5 > diaToday && y3 === "" && y4 === "" && y5 === "") {
         console.log("no has seleccionado una fecha de salida valida")
+
+    } else if (x3 > anoToday || x4 > mesToday || x5 > diaToday && y3 > anoToday || y4 > mesToday || y5 > diaToday) {
+        console.log("correcto")
+    }
 }
 
 
