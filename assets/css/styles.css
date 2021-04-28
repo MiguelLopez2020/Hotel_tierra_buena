@@ -148,7 +148,7 @@ a {
     height: 30px;
     background-color: rgb(0, 0, 0, 0.6);
     border-radius: 30px;
-    margin-left: 200px;
+    margin-left: 210px;
     color: white;
     font-family: 'Lato', sans-serif;
     text-align: center;
@@ -214,20 +214,16 @@ footer {
 
 }
 
-.elemento1{
-    margin-left: 188px;
-    padding-right: 15px;
-    margin: top 20px; ;
-}
-<<<<<<< HEAD
 
 
 .elemento1{
-    margin-left: 188px;
+    margin-left: 220px;
     padding-right: 15px;
     margin: top 20px; ;
 }
-=======
+.elemento1 div{
+    color: #000;
+}
 
 .contenedor {
     height: 30px;
@@ -272,7 +268,7 @@ footer {
     font-style: oblique;
     text-decoration: none;
 }
->>>>>>> miguel
+
 
 
 :root{
@@ -413,4 +409,15 @@ text-align: center;
     color: white;
     margin: 16px 0px;
     font-size: 15px;
+
+}
+.contenedor_registro {
+    height: 30px;
+    background: rgb(253, 253, 115);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: 35%;
+    margin-right: 10%;
+   
 }
