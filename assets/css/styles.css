@@ -175,31 +175,32 @@ a {
     text-decoration: none;
 }
 
-.text-muted a:hover{
+.text-muted a:hover {
     background-color: white;
     color: black;
     text-decoration: none;
 }
-.card-deck{
+
+.card-deck {
     margin: 15px;
 }
 
-footer{
+footer {
     background-color: rgb(0, 0, 0, 0.5);
     color: white;
     text-align: center;
 }
 
-.pie{
-padding: 15px;
+.pie {
+    padding: 15px;
 }
 
-.pie div img{
+.pie div img {
     width: 40px;
     height: 40px;
-
 }
-.reserva{
+
+.reserva {
     margin-bottom: 10px;
 }
 
@@ -208,14 +209,59 @@ padding: 15px;
     background: rgb(253, 253, 115);
     display: flex;
     flex-wrap: wrap;
-    justify-content:right;
+    justify-content: right;
     margin: 0px 0px 50px 0px;
-
-
 }
+<<<<<<< HEAD
 
 .elemento1{
     margin-left: 188px;
     padding-right: 15px;
     margin: top 20px; ;
 }
+=======
+
+.contenedor {
+    height: 30px;
+    background: rgb(253, 253, 115);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0px
+}
+
+.elemento {
+    padding: 5px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.ini {
+    margin-top: 30px;
+}
+
+.inides {
+    margin: 70px;
+}
+
+.card-img {
+    width: auto;
+    height: 500px;
+}
+
+.card-title {
+    text-align: center;
+    color: black;
+    font-style: oblique;
+}
+
+.card-text {
+    color: black;
+    text-align: center;
+    padding: 0 100px 0 100px;
+    font-style: oblique;
+    text-decoration: none;
+}
+>>>>>>> miguel
