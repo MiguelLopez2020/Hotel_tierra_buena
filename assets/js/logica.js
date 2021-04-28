@@ -35,8 +35,8 @@ function consulta() {
 
     } else if (x3 != "" && x4 != "" && x5 != "" && y3 === "" && y4 === "" && y5 === "") {
         console.log("no has seleccionado una fecha de salida")
-    }
-
+    } else if (x3 > anoToday || x4 > mesToday || x5 > diaToday && y3 === "" && y4 === "" && y5 === "")
+        console.log("no has seleccionado una fecha de salida valida")
 }
 
 
