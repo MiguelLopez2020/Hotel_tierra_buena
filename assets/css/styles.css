@@ -205,11 +205,11 @@ footer {
 }
 
 .contenedor {
-    height: 10px;
+   
     background: rgb(253, 253, 115);
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
+    justify-content:space-around;
     margin: 0px 0px 50px 0px;
 
 }
@@ -339,7 +339,12 @@ text-align: center;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
-
+.card_carlos{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
 
 .contenedor_convenciones{
     height: 330px;
@@ -350,7 +355,32 @@ text-align: center;
     margin: 0px
 
 }
+.conteiner_card_titulo{
+    height: 80px;
+    background: rgb(253, 253, 115);
+    display: flex;
+    flex-wrap: initial;
+    justify-content:space-around;
+    margin: 5px;
+    padding-right: 40%;
+}
 
+.conteiner_card_carlos{
+    height: 740px;
+    background: rgb(243, 243, 237);
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+   
+}
+.card_carlos1{
+    margin: 0px 8px 0px 8px;
+   
+}
+.card-text{
+    padding: 0px!important
+
+}
 /* formato de registro*/
 .formato_registro{
     width: 500px;
