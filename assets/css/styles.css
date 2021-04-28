@@ -273,3 +273,68 @@ footer {
     text-decoration: none;
 }
 >>>>>>> miguel
+
+
+:root{
+    --facebook:rgb(48, 72, 179); 
+    --twiter:rgb(50, 182, 182); 
+    --youtube:rgb(194, 19, 19); 
+    --linkedin:rgb(28, 46, 126); 
+    --instagram:rgb(131, 14, 131); 
+}
+.redes-container{
+    display: flex;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-container ul li{
+display: inline-block;
+margin: 0 5px;
+width: 50px;
+height: 50px;
+text-align: center;
+}
+
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgb(0, 0, 0, .2);
+    transition: .2s;
+}
+
+.redes-container ul:hover a{
+    filter: blur(2px);
+}
+
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgb(0, 0, 0, .4);
+    filter: none; 
+}
+
+.redes-container ul li .facebook:hover{
+    background: var(--facebook);
+    margin: 10px;
+}
+.redes-container ul li .twiter:hover{
+    background: var(--twiter);
+    margin: 10px;
+}
+.redes-container ul li .youtube:hover{
+    background: var(--youtube);
+    margin: 10px;
+}
+.redes-container ul li .linkedin:hover{
+    background: var(--linkedin);
+    margin: 10px;
+}
+.redes-container ul li .instagram:hover{
+    background: var(--instagram);
+    margin: 10px;
+}
