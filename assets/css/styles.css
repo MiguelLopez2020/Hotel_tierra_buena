@@ -270,14 +270,14 @@ footer {
 
 :root{
     --facebook:rgb(48, 72, 179); 
-    --twiter:rgb(50, 182, 182); 
+    --twitter:rgb(50, 182, 182); 
     --youtube:rgb(194, 19, 19); 
     --linkedin:rgb(28, 46, 126); 
-    --instagram:rgb(131, 14, 131); 
+    --instagram:rgb(206, 10, 92); 
 }
 .redes-container{
     display: flex;
-    height: 65px;
+    height: 35px;
     align-items: center;
     justify-content: center;
 }
@@ -296,7 +296,7 @@ text-align: center;
     background: #333;
     color: #fff;
     line-height: 50px;
-    font-size: 18px;
+    font-size: 25px;
     box-shadow: 0 3px 5px 0px rgb(0, 0, 0, .2);
     transition: .2s;
 }
@@ -315,8 +315,8 @@ text-align: center;
     background: var(--facebook);
     margin: 10px;
 }
-.redes-container ul li .twiter:hover{
-    background: var(--twiter);
+.redes-container ul li .twitter:hover{
+    background: var(--twitter);
     margin: 10px;
 }
 .redes-container ul li .youtube:hover{
@@ -332,6 +332,14 @@ text-align: center;
     margin: 10px;
 }
 
+.pie{
+    margin: 10px;
+    font-size: 25px;
+}
+.card-title{
+    margin: 10px;
+    font-size: 25px;
+}
 /*salon de eventos*/
 .conteiner_carlos{
     
