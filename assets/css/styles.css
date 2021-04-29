@@ -361,8 +361,8 @@ text-align: center;
     display: flex;
     flex-wrap: initial;
     justify-content:space-around;
-    margin: 5px;
-    padding-right: 40%;
+    margin: 15px 0px 2px 0px;
+    padding-right: 35px;
 }
 
 .conteiner_card_carlos{
