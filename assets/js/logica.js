@@ -47,7 +47,7 @@ function consulta() {
             text: '',
             footer: '<a href>"../html/reservas.html"</a>'
         })
-      //  setTimeout("redireccion()", 2000)//porque de los colores y porque de los elementos que se escogieron
+      //  setTimeout("redireccion()", 2000)// documento en word porque de los colores y porque de los elementos que se escogieron
     }
 }
 
