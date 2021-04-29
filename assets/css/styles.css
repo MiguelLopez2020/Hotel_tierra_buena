@@ -201,7 +201,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: right;
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 0px;
     background-color: rgb(253, 253, 115);
     padding-left: 65%;
@@ -479,7 +479,7 @@ text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    margin-left: 35%;
+    margin-left: 50%;
     margin-right: 10%;
    
 }
@@ -490,8 +490,9 @@ form{
     background-color: #000;
     padding: 10px 20px;
     box-sizing: border-box;
-    margin-top: 20px;
+    margin-top: 0px;
     border-radius: 10px;
+    margin-left: 45%;
 }
 h2{
     color: #fff;
@@ -533,7 +534,7 @@ form{width: 100%;
  }
 }
 .contenedor_contacto{
-    height: 300px;
+    height: 30px;
     background: rgb(253, 253, 115);
     display: flex;
     flex-wrap: wrap;
