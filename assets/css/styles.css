@@ -215,27 +215,12 @@ footer {
     margin: 0px 0px 50px 0px;
 }
 
-<<<<<<< HEAD
-.elemento1 {
-    margin-left: 180px;
-    padding-right: 210px;
-    margin: top 20px;
-    ;
-}
-
-.elemento1 {
-    margin-left: 180px;
-    padding-right: 210px;
-    margin: top 20px;
-    ;
-=======
 
 
 .elemento1{
     margin-left: 220px;
     padding-right: 15px;
     margin: top 20px; ;
->>>>>>> 54118792c3eff96de6637415f70c4ae5320a6e4b
 }
 
 .contenedor {
@@ -281,15 +266,6 @@ footer {
     font-style: oblique;
     text-decoration: none;
 }
-<<<<<<< HEAD
-
-:root {
-    --facebook: rgb(48, 72, 179);
-    --twiter: rgb(50, 182, 182);
-    --youtube: rgb(194, 19, 19);
-    --linkedin: rgb(28, 46, 126);
-    --instagram: rgb(131, 14, 131);
-=======
 
 
 
@@ -299,7 +275,6 @@ footer {
     --youtube:rgb(194, 19, 19); 
     --linkedin:rgb(28, 46, 126); 
     --instagram:rgb(206, 10, 92); 
->>>>>>> 54118792c3eff96de6637415f70c4ae5320a6e4b
 }
 
 .redes-container {
@@ -309,21 +284,12 @@ footer {
     justify-content: center;
 }
 
-<<<<<<< HEAD
-.redes-container ul li {
-    display: inline-block;
-    margin: 0 5px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-=======
 .redes-container ul li{
 display: inline-block;
 margin: 0 5px;
 width: 65px;
 height: 65px;
 text-align: center;
->>>>>>> 54118792c3eff96de6637415f70c4ae5320a6e4b
 }
 
 .redes-container ul li a {
@@ -351,14 +317,8 @@ text-align: center;
     background: var(--facebook);
     margin: 10px;
 }
-<<<<<<< HEAD
-
-.redes-container ul li .twiter:hover {
-    background: var(--twiter);
-=======
 .redes-container ul li .twitter:hover{
     background: var(--twitter);
->>>>>>> 54118792c3eff96de6637415f70c4ae5320a6e4b
     margin: 10px;
 }
 
@@ -392,10 +352,6 @@ text-align: center;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
-<<<<<<< HEAD
-
-.contenedor_convenciones {
-=======
 .card_carlos{
     height: 500px;
     display: flex;
@@ -404,7 +360,6 @@ text-align: center;
 }
 
 .contenedor_convenciones{
->>>>>>> 54118792c3eff96de6637415f70c4ae5320a6e4b
     height: 330px;
     background: rgb(253, 253, 115);
     display: flex;
@@ -495,7 +450,6 @@ text-align: center;
     color: white;
     margin: 16px 0px;
     font-size: 15px;
-<<<<<<< HEAD
 }
 
 .miguel-boton {
@@ -514,7 +468,6 @@ text-align: center;
 .med-miguel{
     margin: 50px;
     margin-left: 400px ; 
-=======
 
 }
 .contenedor_registro {
@@ -585,5 +538,4 @@ form{width: 100%;
     margin-left: 0%;
     margin-right: 10%;
 
->>>>>>> 54118792c3eff96de6637415f70c4ae5320a6e4b
 }
