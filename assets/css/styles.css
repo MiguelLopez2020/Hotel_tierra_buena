@@ -143,7 +143,7 @@ a {
     flex-wrap: wrap;
 }
 
-.medidas {
+.medidas-miguel {
     width: 280px;
     height: 30px;
     background-color: rgb(0, 0, 0, 0.6);
@@ -153,14 +153,16 @@ a {
     font-family: 'Lato', sans-serif;
     text-align: center;
     margin-top: 0px;
-    padding-top: 3px;
+    padding: auto;
+    text-decoration: none;
+
 }
 
-.medidas:hover {
+.medidas-miguel:hover {
     background-color: rgb(235, 117, 96);
     color: black;
     font-style: oblique;
-    padding: 10px
+    padding: auto
 }
 
 .card-footer {
@@ -211,15 +213,29 @@ footer {
     flex-wrap: wrap;
     justify-content:space-around;
     margin: 0px 0px 50px 0px;
-
 }
 
+<<<<<<< HEAD
+.elemento1 {
+    margin-left: 180px;
+    padding-right: 210px;
+    margin: top 20px;
+    ;
+}
+
+.elemento1 {
+    margin-left: 180px;
+    padding-right: 210px;
+    margin: top 20px;
+    ;
+=======
 
 
 .elemento1{
     margin-left: 220px;
     padding-right: 15px;
     margin: top 20px; ;
+>>>>>>> 54118792c3eff96de6637415f70c4ae5320a6e4b
 }
 
 .contenedor {
@@ -265,6 +281,15 @@ footer {
     font-style: oblique;
     text-decoration: none;
 }
+<<<<<<< HEAD
+
+:root {
+    --facebook: rgb(48, 72, 179);
+    --twiter: rgb(50, 182, 182);
+    --youtube: rgb(194, 19, 19);
+    --linkedin: rgb(28, 46, 126);
+    --instagram: rgb(131, 14, 131);
+=======
 
 
 
@@ -274,23 +299,34 @@ footer {
     --youtube:rgb(194, 19, 19); 
     --linkedin:rgb(28, 46, 126); 
     --instagram:rgb(206, 10, 92); 
+>>>>>>> 54118792c3eff96de6637415f70c4ae5320a6e4b
 }
-.redes-container{
+
+.redes-container {
     display: flex;
     height: 35px;
     align-items: center;
     justify-content: center;
 }
 
+<<<<<<< HEAD
+.redes-container ul li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+=======
 .redes-container ul li{
 display: inline-block;
 margin: 0 5px;
 width: 65px;
 height: 65px;
 text-align: center;
+>>>>>>> 54118792c3eff96de6637415f70c4ae5320a6e4b
 }
 
-.redes-container ul li a{
+.redes-container ul li a {
     display: block;
     padding: 0 10px;
     background: #333;
@@ -301,33 +337,42 @@ text-align: center;
     transition: .2s;
 }
 
-.redes-container ul:hover a{
+.redes-container ul:hover a {
     filter: blur(2px);
 }
 
-.redes-container ul li a:hover{
+.redes-container ul li a:hover {
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 5px 5px 0px rgb(0, 0, 0, .4);
-    filter: none; 
+    filter: none;
 }
 
-.redes-container ul li .facebook:hover{
+.redes-container ul li .facebook:hover {
     background: var(--facebook);
     margin: 10px;
 }
+<<<<<<< HEAD
+
+.redes-container ul li .twiter:hover {
+    background: var(--twiter);
+=======
 .redes-container ul li .twitter:hover{
     background: var(--twitter);
+>>>>>>> 54118792c3eff96de6637415f70c4ae5320a6e4b
     margin: 10px;
 }
-.redes-container ul li .youtube:hover{
+
+.redes-container ul li .youtube:hover {
     background: var(--youtube);
     margin: 10px;
 }
-.redes-container ul li .linkedin:hover{
+
+.redes-container ul li .linkedin:hover {
     background: var(--linkedin);
     margin: 10px;
 }
-.redes-container ul li .instagram:hover{
+
+.redes-container ul li .instagram:hover {
     background: var(--instagram);
     margin: 10px;
 }
@@ -341,12 +386,16 @@ text-align: center;
     font-size: 25px;
 }
 /*salon de eventos*/
-.conteiner_carlos{
-    
+
+.conteiner_carlos {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
+<<<<<<< HEAD
+
+.contenedor_convenciones {
+=======
 .card_carlos{
     height: 500px;
     display: flex;
@@ -355,13 +404,13 @@ text-align: center;
 }
 
 .contenedor_convenciones{
+>>>>>>> 54118792c3eff96de6637415f70c4ae5320a6e4b
     height: 330px;
     background: rgb(253, 253, 115);
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
     margin: 0px
-
 }
 .conteiner_card_titulo{
     height: 80px;
@@ -390,7 +439,8 @@ text-align: center;
 
 }
 /* formato de registro*/
-.formato_registro{
+
+.formato_registro {
     width: 500px;
     height: 600px;
     background-color: rgb(34, 34, 43);
@@ -400,14 +450,15 @@ text-align: center;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 7px 13px 37px #000;
-
 }
-.formato_registro h2{
+
+.formato_registro h2 {
     color: white;
     margin-bottom: 20px;
     background-color: rgb(34, 34, 43);
 }
-.control{
+
+.control {
     width: 100%;
     background-color: rgb(167, 180, 179);
     padding: 10px;
@@ -416,27 +467,27 @@ text-align: center;
     border: 2px solid rgb(252, 251, 249);
     font-size: 18px;
 }
-.formato_registro p{
+
+.formato_registro p {
     color: white;
     height: 40px;
     text-align: center;
     font-size: 18px;
     line-height: 40px;
     background-color: rgb(34, 34, 43);
-    
 }
-.formato_registro a{
+
+.formato_registro a {
     color: white;
     background-color: rgb(34, 34, 43);
-    
 }
 
-.formato_registro a:hover{
+.formato_registro a:hover {
     color: white;
-        text-decoration: underline;
+    text-decoration: underline;
 }
 
-.formato_registro .boton{
+.formato_registro .boton {
     width: 100%;
     background-color: rgb(46, 15, 219);
     border-radius: 10px;
@@ -444,6 +495,26 @@ text-align: center;
     color: white;
     margin: 16px 0px;
     font-size: 15px;
+<<<<<<< HEAD
+}
+
+.miguel-boton {
+    padding: 10px 0 0 0;
+    text-decoration: none;
+}
+.miguel-titulo{
+    text-align: center;
+    padding: 70px;
+    margin-left: 300px;
+}
+.card-img-top{
+    height: 300px;
+}
+
+.med-miguel{
+    margin: 50px;
+    margin-left: 400px ; 
+=======
 
 }
 .contenedor_registro {
@@ -514,4 +585,5 @@ form{width: 100%;
     margin-left: 0%;
     margin-right: 10%;
 
+>>>>>>> 54118792c3eff96de6637415f70c4ae5320a6e4b
 }

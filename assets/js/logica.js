@@ -18,27 +18,70 @@ function consulta() {
     var y5 = y2.substring(8, 10)//dia salida
 
 
+
+    console.log(y3)
+    console.log(y4)
     //fecha del dia de hoy
-    var anoToday = z.getFullYear();//año actual
-    var mesToday = z.getMonth();//mes actual
+    var anoToday = z.getFullYear();//año actual castear parseInt
+    var mesToday = z.getMonth();//mes actual castear parseInt
     var diaToday = z.getDate();//dia actual
 
+    var anoTodayCast = parseInt(anoToday)
+    var mesTodayCast = parseInt(mesToday + 1)
 
-    if (x3 < anoToday || x4 < mesToday || x5 < diaToday || x3 === "" || x4 === "" || x5 === "") {
-        console.log("Reserva en dias anteriores o no has seleccionado fechas")
+        console.log(anoTodayCast)
+        console.log(mesTodayCast)
+    if (x3 < anoToday || x4 < mesToday || x5 < diaToday || y3 < anoToday || y4 < mesToday || y5 < diaToday) {
+        Swal.fire({
+            icon: 'error',
+            title: 'Selecciona una fecha de llegada y salida válida',
+            text: '',
+            footer: '<a href></a>'
+        })
 
-    } else if (x3 != "" || x4 != "" || x5 != "" || y3 === " " || y4 === " " || y5 === "") {
-        console.log("no has seleccionado una fecha de salida")
+    } else if (x3 >= anoTodayCast || x4>= mesTodayCast  /*|| x4 > mesToday || x5 > diaToday*/ || y3 >= anoTodayCast || y4>=mesTodayCast/* || y4 > mesToday || y5 > diaToday*/) {
 
-    } else if (x3 === "" || x4 === "" || x5 === "" && y3 != "" || y4 != "" || y5 != "") {
-        console.log("no has seleccionado una fecha de llegada")
-
-    } else if (x3 > anoToday || x4 > mesToday || x5 > diaToday && y3 === "" && y4 === "" && y5 === "") {
-        console.log("no has seleccionado una fecha de salida valida")
-
-    } else if (x3 > anoToday || x4 > mesToday || x5 > diaToday && y3 > anoToday || y4 > mesToday || y5 > diaToday) {
-        console.log("correcto")
+        Swal.fire({
+            icon: 'success',
+            title: 'Lo sentimos esta fecha no se encuentra disponible &#128557, pero mira nuestras reservas en el boton Disponibilidad &#128526 ',
+            text: '',
+            footer: '<a href>"../html/reservas.html"</a>'
+        })
+      //  setTimeout("redireccion()", 2000)// documento en word porque de los colores y porque de los elementos que se escogieron
     }
+}
+
+function redireccion() {
+    window.location = "../html/reservas.html"
+}
+
+
+function reserva() {
+    Swal.mixin({
+        input: 'text',
+        confirmButtonText: 'Next &rarr;',
+        showCancelButton: true,
+        progressSteps: ['1', '2', '3']
+    }).queue([
+        {
+            title: 'Regalanos tu nombre',
+            text: ''
+        },
+        'Regalanos tu correo',
+        'Regalanos tu número de contacto'
+    ]).then((result) => {
+        if (result.value) {
+            const answers = JSON.stringify(result.value)
+            Swal.fire({
+                title: 'Todo Listo',
+                html: `
+              Pronto nos comunicaremos contigo
+              
+            `,
+                confirmButtonText: 'Salir'
+            })
+        }
+    })
 }
 
 
