@@ -17,10 +17,6 @@ function consulta() {
     var y4 = y2.substring(5, 7)//mes salida
     var y5 = y2.substring(8, 10)//dia salida
 
-
-
-    console.log(y3)
-    console.log(y4)
     //fecha del dia de hoy
     var anoToday = z.getFullYear();//año actual castear parseInt
     var mesToday = z.getMonth();//mes actual castear parseInt
@@ -29,8 +25,6 @@ function consulta() {
     var anoTodayCast = parseInt(anoToday)
     var mesTodayCast = parseInt(mesToday + 1)
 
-        console.log(anoTodayCast)
-        console.log(mesTodayCast)
     if (x3 < anoToday || x4 < mesToday || x5 < diaToday || y3 < anoToday || y4 < mesToday || y5 < diaToday) {
         Swal.fire({
             icon: 'error',
@@ -47,7 +41,7 @@ function consulta() {
             text: '',
             footer: '<a href>"../html/reservas.html"</a>'
         })
-      //  setTimeout("redireccion()", 2000)// documento en word porque de los colores y porque de los elementos que se escogieron
+      setTimeout("redireccion()", 2000) // documento en word porque de los colores y porque de los elementos que se escogieron
     }
 }
 
