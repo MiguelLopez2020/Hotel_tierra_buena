@@ -446,7 +446,7 @@ text-align: center;
     text-decoration: underline;
 }
 
-.formato_registro .boton {
+.formato_registro #boton {
     width: 100%;
     background-color: rgb(46, 15, 219);
     border-radius: 10px;
