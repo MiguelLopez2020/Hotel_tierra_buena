@@ -33,7 +33,7 @@ function consulta() {
             footer: '<a href></a>'
         })
 
-    } else if (x3 >= anoTodayCast || x4>= mesTodayCast  /*|| x4 > mesToday || x5 > diaToday*/ || y3 >= anoTodayCast || y4>=mesTodayCast/* || y4 > mesToday || y5 > diaToday*/) {
+    } else if (x3 >= anoTodayCast || x4 >= mesTodayCast  /*|| x4 > mesToday || x5 > diaToday*/ || y3 >= anoTodayCast || y4 >= mesTodayCast/* || y4 > mesToday || y5 > diaToday*/) {
 
         Swal.fire({
             icon: 'success',
@@ -41,7 +41,7 @@ function consulta() {
             text: '',
             footer: '<a href>"../html/reservas.html"</a>'
         })
-      setTimeout("redireccion()", 2000) // documento en word porque de los colores y porque de los elementos que se escogieron
+        setTimeout("redireccion()", 2000) // documento en word porque de los colores y porque de los elementos que se escogieron
     }
 }
 
