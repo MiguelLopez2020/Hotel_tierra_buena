@@ -24,24 +24,31 @@ function consulta() {
 
     var anoTodayCast = parseInt(anoToday)
     var mesTodayCast = parseInt(mesToday + 1)
+    var diaTodayCast = parseInt(diaToday)
 
-    if (x3 < anoToday || x4 < mesToday || x5 < diaToday || y3 < anoToday || y4 < mesToday || y5 < diaToday) {
+
+if (x5 <= diaTodayCast && y5 <= diaTodayCast || x5 >= diaTodayCast && y5 >= diaTodayCast && y4 < mesTodayCast) {
         Swal.fire({
             icon: 'error',
-            title: 'Selecciona una fecha de llegada y salida válida',
+            title: 'Recuerda que no puedes reservar para el día de hoy o días anteriores ',
             text: '',
             footer: '<a href></a>'
         })
 
-    } else if (x3 >= anoTodayCast || x4 >= mesTodayCast  /*|| x4 > mesToday || x5 > diaToday*/ || y3 >= anoTodayCast || y4 >= mesTodayCast/* || y4 > mesToday || y5 > diaToday*/) {
 
-        Swal.fire({
-            icon: 'success',
-            title: 'Lo sentimos esta fecha no se encuentra disponible &#128557, pero mira nuestras reservas en el boton Disponibilidad &#128526 ',
-            text: '',
-            footer: '<a href>"../html/reservas.html"</a>'
-        })
-        setTimeout("redireccion()", 2000) // documento en word porque de los colores y porque de los elementos que se escogieron
+
+
+    } else if (x5 > diaTodayCast && y5 > diaTodayCast || x5 > diaTodayCast && y5 < diaTodayCast && y3 > mesTodayCast || x5 < diaTodayCast && y5 < diaTodayCast && y3 > mesTodayCast || x5 < diaTodayCast && y5 < diaTodayCast && y3 < mesTodayCast && y2 > anoTodayCast) {
+        {
+
+            Swal.fire({
+                icon: 'success',
+                title: 'Actualmente no contamos con reserva para los dias seleccionados &#128543 , sin embargo espera un momento y veras nuestras habitaciones disponibles &#128526 ',
+                text: '',
+                footer: '<a href></a>'
+            })
+            setTimeout("redireccion()", 4000)// documento en word porque de los colores y porque de los elementos que se escogieron
+        }
     }
 }
 

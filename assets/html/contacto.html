@@ -8,6 +8,7 @@
     <title>Formulario de contacto</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
 
 </head>
 
@@ -16,41 +17,61 @@
 
 <body>
     <div class="contenedor_contacto">
+<div></div>
 
-
-        <div class="elemento"><img src="../img/logo_nuestrat.png" width="350px" height="350px" alt=""></div>
+        <div class="elemento"><img src="../img/logo_nuestrat.png" width="450px" height="450px" alt=""></div>
        
         
     </div>
     
     <form action="">
-        <h2>Contacto</h2>
-        <input type="text" name="nombre" placeholder="Nombre">
-        <input type="email" name="correo" placeholder="Correo">
-        <input type="number" name="telefono" placeholder="Telefono">
-        <textarea name="mensaje" placeholder="Escriba aquí su mensaje"></textarea>
+        <h2>Formulario de contacto</h2>
+        <input type="text" name="nombre" placeholder="Nombre" id="nombre1">
+        <input type="email" name="correo" placeholder="Correo" id="correo1">
+        <input type="number" name="telefono" placeholder="Telefono" id="telefono1">
+        <textarea name="mensaje" placeholder="Escriba aquí su mensaje" id="tarea1"></textarea>
         
-        <input type="button" value="Enviar" id="boton">
-    
-    
+        <button onclick="calcular()" id="boton">Enviar</button>
     
     </form>
+    
+    
 <br>
 <footer>
     <div class="pie">
         <div>
             Siguenos en nuestras redes sociales
         </div><br>
-        <div>
-            <img src="../img/facebook.png" alt="">
-            <img src="../img/instagram.jpeg" alt="">
+        <div class="redes-container">
+            <ul>
+                <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li><a href="https://twitter.com/" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.linkedin.com/" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/" class="instagram"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
         </div>
     </div>
+    <div class="card-body">
+        <h5 class="card-title">Diseñado para ti</h5>
+        <p  class="card-text">Pruébalo antes de irte.</p>
+        <a href="registro.html" class="btn btn-warning">Probar</a>
+    </div>
+    <div class="card-footer text-muted" aria-colspan="">
+        © 2021 Copyright:
+        <a class="text-light" href="">www.tierranuestra.com.co</a>
+    </div>
+</div>
 </footer>
+<script src="../js/contacto.js"></script>
 <script src="../js/jquery-3.6.0.min.js"></script>
 <script src="../js/popper.min.js"></script>
 <script src="../js/sweetalert2@10.js"></script>
 <script src="../js/bootstrap.js"></script>
+<script src="../js/contacto.js"></script>
 
 </body>
 
