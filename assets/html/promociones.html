@@ -52,51 +52,247 @@
         </div>
     </div>
 
-    <div>
-        <div class="home-ui-banners-mkt-container">
-            <h2 class="eva-3-h3 home-ui-module-title home-ui-title-h2"></h2>
-            <div class="home-ui-banners-mkt" data-trackingdata="{"render":{"hermes":{"topics":[{"name":"home-banners","data":{"eventtype":"view","items_banner":[{"incentive":"co_2021_w16_hotusa","component_subtype":"MAIN","driver_sales_banner":"MAIN - HOT USA Generico","component_source":"campaigns","component_version":"1","component_type":"banner"},{"incentive":"co_2021_w16_hotusa","component_subtype":"SECONDARY","driver_sales_banner":"SEC1 - American Airlines","component_source":"campaigns","component_version":"1","component_type":"banner"},{"incentive":"co_2021_w16_hotusa","component_subtype":"SECONDARY","driver_sales_banner":"SEC2 - Copa Airlines","component_source":"campaigns","component_version":"1","component_type":"banner"}],"country":"CO","platform":"site"}}]},"ga":{"eventCategory":"home_mkt_banners","eventAction":"mktbanner-show","eventLabel":"0-co_2021_w16_hotusa-MAIN - HOT USA Generico|1-co_2021_w16_hotusa-SEC1 - American Airlines|2-co_2021_w16_hotusa-SEC2 - Copa Airlines","event":"system-action","customDimensions":{"Site":"CO","Product":"CP","Page_Flow":"HOME","Trip_Status":"DORMANT_2"}}}}">
-                <div class="home-ui-banners-mkt-item"div>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <div class="pie">
-            <div>
-                Sigenos en nuestras redes sociales
-            </div><br>
-            <div class="redes-container">
-                <ul>
-                    <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li><a href="https://twitter.com/" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.youtube.com/" class="youtube"><i class="fab fa-youtube"></i></a></li>
-                    <li><a href="https://www.linkedin.com/" class="linkedin"><i class="fab fa-linkedin"></i></a>
-                    </li>
-                    <li><a href="https://www.instagram.com/" class="instagram"><i class="fab fa-instagram"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">Diseñado para ti</h5>
-            <p class="card-text">Pruébalo antes de irte.</p>
-            <a href="registro.html" class="btn btn-warning">Probar</a>
-        </div>
-        <div class="card-footer text-muted" aria-colspan="">
-            © 2021 Copyright:
-            <a class="text-light" href="">www.tierranuestra.com.co</a>
-        </div>
-        </div>
-    </footer>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
 
-    <script src="../js/logica.js"></script>
-    <script src="../js/jquery-3.6.0.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/sweetalert2@10.js"></script>
-    <script src="../js/bootstrap.js"></script>
-    <script src="https://kit.fontawesome.com/85591d90fd.js" crossorigin="anonymous"></script>
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <link href="carousel.css" rel="stylesheet">
+    </head>
 
-</body>
+    <body>
+        <main role="main">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                            <rect width="100%" height="100%" fill="#777" />
+                        </svg>
+                        <div class="container">
+                            <div class="carousel-caption text-left">
+                                <h1>PORQUE TE LAS MERECES</h1>
+                                <p>Si programas tus vacaciones desde ya para Diciembre de 2021,tienes un gran descuento
+                                </p>
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">¡Quiero conocerla!</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                            <rect width="100%" height="100%" fill="#777" />
+                        </svg>
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>GRAN PROMOCIÓN</h1>
+                                <p>Solo por 24 horas</p>
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Aprovechar promoción</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                            <rect width="100%" height="100%" fill="#777" />
+                        </svg>
+                        <div class="container">
+                            <div class="carousel-caption text-right">
+                                <h1>SEMANA ANTICOVID</h1>
+                                <p>Si vives en alguna ciudad de nuestras sedes, esta promocion es para ti</p>
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Me apunto</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <div class="container marketing">
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                            xmlns="https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704_960_720.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" img
+                            role="" aria-label="Placeholder: 140x140">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                dy=".3em">140x140</text>
+                                
+                        </svg>
+                        <h2>TRANSPORTE</h2>
+                        <p>Por la compra de alguna de nuestras promociones publicadas, tienes la opcion de elegir una de
+                            nuestros tres megaregalos, este megaregalo incluye transporte de aeropuerto a hotel y hotel
+                            a aeropuerto</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+                            role="img" aria-label="Placeholder: 140x140">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                dy=".3em">140x140</text>
+                        </svg>
+                        <h2>TIQUETES DE AVIÓN</h2>
+                        <p>Por la compra de alguna de nuestras promociones publicadas, tienes la opcion de elegir una de
+                            nuestros tres megaregalos, este megaregalo incluye un tiquete de avión a tu ciudad origen</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+                            role="img" aria-label="Placeholder: 140x140">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                dy=".3em">140x140</text>
+                        </svg>
+                        <h2>CHECK IN - CHECK OUT</h2>
+                        <p>Por la compra de alguna de nuestras promociones publicadas, tienes la opcion de elegir una de
+                            nuestros tres megaregalos, este megaregalo incluye que tu decidas en que horarios seran el Check in y el Check out</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+
+
+                <!-- START THE FEATURETTES -->
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow
+                                your mind.</span></h2>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula
+                            porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl
+                            consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                            width="500" height="500" xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                            aria-label="Placeholder: 500x500">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
+                                dy=".3em">500x500</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for
+                                yourself.</span></h2>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula
+                            porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl
+                            consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                            width="500" height="500" xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                            aria-label="Placeholder: 500x500">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
+                                dy=".3em">500x500</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span>
+                        </h2>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula
+                            porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl
+                            consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                            width="500" height="500" xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                            aria-label="Placeholder: 500x500">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
+                                dy=".3em">500x500</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <!-- /END THE FEATURETTES -->
+
+            </div><!-- /.container -->
+
+            <footer>
+                <div class="pie">
+                    <div>
+                        Sigenos en nuestras redes sociales
+                    </div><br>
+                    <div class="redes-container">
+                        <ul>
+                            <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://twitter.com/" class="twitter"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://www.youtube.com/" class="youtube"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li><a href="https://www.instagram.com/" class="instagram"><i
+                                        class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Diseñado para ti</h5>
+                    <p class="card-text">Pruébalo antes de irte.</p>
+                    <a href="registro.html" class="btn btn-warning">Probar</a>
+                </div>
+                <div class="card-footer text-muted" aria-colspan="">
+                    © 2021 Copyright:
+                    <a class="text-light" href="">www.tierranuestra.com.co</a>
+                </div>
+                </div>
+            </footer>
+
+            <script src="../js/logica.js"></script>
+            <script src="../js/jquery-3.6.0.min.js"></script>
+            <script src="../js/popper.min.js"></script>
+            <script src="../js/sweetalert2@10.js"></script>
+            <script src="../js/bootstrap.js"></script>
+            <script src="https://kit.fontawesome.com/85591d90fd.js" crossorigin="anonymous"></script>
+
+    </body>
 
 </html>
