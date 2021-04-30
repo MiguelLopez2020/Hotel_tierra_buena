@@ -28,7 +28,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    text-align: right;
+    text-align: center;
     background-color: rgb(128, 128, 128, 0.7);
     padding-left: 25%;
     padding-top: 10px;
@@ -196,6 +196,7 @@ footer {
     margin-bottom: 10px;
 }
 .reserva{
+    
     height: 400px;
     display: flex;
     flex-wrap: wrap;
@@ -204,7 +205,7 @@ footer {
     margin-top: 40px;
     padding: 0px;
     background-color: rgb(253, 253, 115);
-    padding-left: 65%;
+    padding-left: 45%;
 }
 .contenedor {
    
@@ -519,6 +520,7 @@ textarea{
 
 }
 #boton{
+    width: 100%;
     background-color: rgb(253, 253, 115);
     padding: 10px;
     border-radius: 30px;
