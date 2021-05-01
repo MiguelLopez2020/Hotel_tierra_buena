@@ -588,3 +588,8 @@ height: 650px;
     border-radius: 10px;
 
 }
+.form-control{
+    width: 530px;
+    padding: 0%;
+    margin: 10px;
+}
