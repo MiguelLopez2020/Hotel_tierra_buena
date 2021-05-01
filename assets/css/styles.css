@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body {
-    margin: 1%;
+    margin: 1% ;
+
     background-color: rgb(253, 253, 115);
 }
 
@@ -18,20 +19,9 @@ body {
 .navBar div {
     color: white;
     font-family: 'Lato', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }
 
-.parameters {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-    background-color: rgb(128, 128, 128, 0.7);
-    padding-left: 25%;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    margin-top: 10px;
-}
 
 .slider {
     width: 100%;
@@ -134,7 +124,7 @@ a {
     height: 40px;
     background-color: rgb(0, 0, 0, 0.6);
     border-radius: 30px;
-    margin-left: 50px;
+    margin-left: 20px;
     color: white;
     font-family: 'Lato', sans-serif;
     text-align: center;
@@ -188,21 +178,7 @@ footer {
     height: 40px;
 }
 
-.reserva {
-    margin-bottom: 10px;
-}
-.reserva{
-    
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: right;
-    margin-top: 40px;
-    padding: 0px;
-    background-color: rgb(253, 253, 115);
-    padding-left: 45%;
-}
+
 
 .contenedor {
     background: rgb(253, 253, 115);
@@ -213,7 +189,7 @@ footer {
 }
 
 .elemento1 {
-    margin-left: 290px;
+    margin-left: 180px;
     padding-right: 15px;
     margin: top 20px;
     ;
@@ -397,69 +373,10 @@ footer {
     padding: 0px!important
 }
 
-/* formato de registro*/
 
-.formato_registro {
-    width: 500px;
-    height: 600px;
-    background-color: rgb(34, 34, 43);
-    padding: 50px;
-    margin: auto;
-    margin: 10px 100px;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 7px 13px 37px #000;
-}
 
-.formato_registro h2 {
-    color: white;
-    margin-bottom: 20px;
-    background-color: rgb(34, 34, 43);
-}
 
-.control {
-    width: 100%;
-    background-color: rgb(167, 180, 179);
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    border: 2px solid rgb(252, 251, 249);
-    font-size: 18px;
-}
 
-.formato_registro p {
-    color: white;
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-    background-color: rgb(34, 34, 43);
-}
-
-.formato_registro a {
-    color: white;
-    background-color: rgb(34, 34, 43);
-}
-
-.formato_registro a:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-.formato_registro #boton {
-    width: 100%;
-    background-color: rgb(46, 15, 219);
-    border-radius: 10px;
-    padding: 10px;
-    color: white;
-    margin: 16px 0px;
-    font-size: 15px;
-}
-
-.miguel-boton {
-    padding: 10px 0 0 0;
-    text-decoration: none;
-}
 
 .miguel-titulo {
     text-align: center;
@@ -486,19 +403,84 @@ footer {
     margin-right: 10%;
 }
 
-/*formulario contacto*/
+/*validacion de fechas*/
+.reserva {
+    margin-bottom: 10px;
+}
+.reserva{
+    
+    height: 205px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: right;
+    margin-top: 30px;
+    padding: 0px;
+    background-color: rgb(253, 253, 115);
+    padding-left: 45%;
+}
 
 form {
-    width: 550px;
+    width: 100%;
+    height: 150px;
     margin: auto;
     background-color: #000;
-    padding: 10px 20px;
+   
     box-sizing: border-box;
     margin-top: 0px;
     border-radius: 10px;
-    margin-left: 45%;
+    margin-left: 0%;
+}
+.parameters {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(128, 128, 128, 0.7);
+    padding-left: 0%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-top: 10px;
+}
+.parameters input{
+    height: 40px;
+    width: 150px;
+}
+#htl{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border-color: #000 ;
+    border: 1.5px solid;
+}
+#htl input{
+    width: 20px;
+}
+label{
+    color: #000;
+
+}
+.btn-warning{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border-color: #000 ;
+    border: 1.5px solid;
+    padding: 4px;
+    font-size: 17px;
 }
 
+.miguel-boton {
+    
+    text-decoration: none;
+    margin-left: 78%;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+}
 h2 {
     color: #fff;
     text-align: center;
@@ -516,17 +498,7 @@ input, textarea {
     border-radius: 20px;
 }
 
-textarea {
-    min-height: 100px;
-    min-width: 200px;
-    max-width: 100%;
-}
-#boton{
-    width: 100%;
-    background-color: rgb(253, 253, 115);
-    padding: 10px;
-    border-radius: 30px;
-}
+
 
 #boton:hover {
     cursor: pointer
@@ -548,7 +520,7 @@ textarea {
 }
 
 body {
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
     color: #adc913;
 }
@@ -556,4 +528,63 @@ body {
     height: 100px;
     text-shadow: #adc913;
     
+}
+
+/* boton registro*/
+.modal-content{
+    height: 800px;
+    width: 580px;
+    border: #fff solid;
+    
+}
+.modal-body{
+    background-color:black;
+    justify-content:left;
+height: 650px;
+    width: 0px;
+    padding-right: 96.2%;
+    border: #fff solid;
+
+}
+.form-group1{
+    text-align: center;
+}
+
+
+.btn-primary{
+    background-color:  rgb(253, 253, 115);
+    border-color:  rgb(253, 253, 115);
+    color: rgb(12, 12, 12);
+    width: 100px;
+    height: 35px;
+    padding: 1px;
+    margin-top: 5px;
+    
+}
+
+.close{
+    color: #fff;
+}
+.form-group{
+    color: #fff;
+}
+.modal-header{
+    background-color:black;
+    color: #fff;
+    margin: 0%;
+    border: #fff solid;
+    padding-left: 25%;
+
+}
+.modal-footer{
+    background-color:black;
+    border-color:  rgb(253, 253, 115);
+    border: #fff solid;
+}
+
+.btn-secondary{
+    background-color: rgb(0, 0, 0, 0.6);
+    border-color: #fff;
+    border-radius: 10px;
+
 }
