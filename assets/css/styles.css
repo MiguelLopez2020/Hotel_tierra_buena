@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     margin: 0.5%;
     border: 5px solid;
     border-color:white;
     border-radius: 10px;
     background-color: rgb(253, 253, 115);
 }
+
 
 .navBar {
     display: flex;
@@ -322,7 +325,8 @@ footer {
     font-size: 50px;
 }
 
-/*salon de eventos*/
+/*salon de eventos*************************************************************************/
+
 
 .conteiner_carlos {
     display: flex;
@@ -338,22 +342,38 @@ footer {
 }
 
 .contenedor_convenciones {
-    height: 330px;
+    height: 280px;
     background: rgb(253, 253, 115);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0px
+    justify-content:left;
+    margin-bottom: 100px;
+    padding-top: 1%;
+    
+}
+.elemento1c{
+    margin-right: 20%;
+}
+.videoc iframe{
+    border-radius: 20px;
+    margin-top: 10px;
+
 }
 
 .conteiner_card_titulo {
     height: 80px;
+    width: 100%;
     background: rgb(253, 253, 115);
     display: flex;
     flex-wrap: initial;
     justify-content: space-around;
-    margin: 15px 0px 2px 0px;
-    padding-right: 35px;
+    margin: 15px 0px 5px 0px;
+    padding-right: 3px;
+
+}
+.conteiner_card_titulo h1{
+color: #000;
+font-size: 40px;
 }
 
 .conteiner_card_carlos {
@@ -361,12 +381,10 @@ footer {
     background: rgb(243, 243, 237);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-around;
+    margin-bottom: 25%;
 }
 
-.card_carlos1 {
-    margin: 0px 8px 0px 8px;
-}
 
 .card-text {
     padding: 0px!important
@@ -517,11 +535,6 @@ input, textarea {
     margin-right: 10%;
 }
 
-body {
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-    color: #adc913;
-}
 
 .card-title {
     height: 100px;
