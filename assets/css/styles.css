@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body {
-    margin: 1% ;
-
+    margin: 0.5%;
+    border: 5px solid;
+    border-color:white;
+    border-radius: 10px;
     background-color: rgb(253, 253, 115);
 }
 
@@ -21,7 +23,6 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
 }
-
 
 .slider {
     width: 100%;
@@ -177,8 +178,6 @@ footer {
     width: 40px;
     height: 40px;
 }
-
-
 
 .contenedor {
     background: rgb(253, 253, 115);
@@ -373,11 +372,6 @@ footer {
     padding: 0px!important
 }
 
-
-
-
-
-
 .miguel-titulo {
     text-align: center;
     padding: 70px;
@@ -404,11 +398,12 @@ footer {
 }
 
 /*validacion de fechas*/
+
 .reserva {
     margin-bottom: 10px;
 }
-.reserva{
-    
+
+.reserva {
     height: 205px;
     width: 100%;
     display: flex;
@@ -426,12 +421,12 @@ form {
     height: 150px;
     margin: auto;
     background-color: #000;
-   
     box-sizing: border-box;
     margin-top: 0px;
     border-radius: 10px;
     margin-left: 0%;
 }
+
 .parameters {
     width: 100%;
     height: 60px;
@@ -445,42 +440,46 @@ form {
     padding-bottom: 50px;
     margin-top: 10px;
 }
-.parameters input{
+
+.parameters input {
     height: 40px;
     width: 150px;
 }
-#htl{
+
+#htl {
     width: 150px;
     height: 40px;
     border-radius: 30px;
-    border-color: #000 ;
+    border-color: #000;
     border: 1.5px solid;
 }
-#htl input{
+
+#htl input {
     width: 20px;
 }
-label{
-    color: #000;
 
+label {
+    color: #000;
 }
-.btn-warning{
+
+.btn-warning {
     width: 150px;
     height: 40px;
     border-radius: 30px;
-    border-color: #000 ;
+    border-color: #000;
     border: 1.5px solid;
     padding: 4px;
     font-size: 17px;
 }
 
 .miguel-boton {
-    
     text-decoration: none;
     margin-left: 78%;
     width: 150px;
     height: 40px;
     border-radius: 30px;
 }
+
 h2 {
     color: #fff;
     text-align: center;
@@ -498,8 +497,6 @@ input, textarea {
     border-radius: 20px;
 }
 
-
-
 #boton:hover {
     cursor: pointer
 }
@@ -509,7 +506,8 @@ input, textarea {
         width: 100%;
     }
 }
-.contenedor_contacto{
+
+.contenedor_contacto {
     height: 30px;
     background: rgb(253, 253, 115);
     display: flex;
@@ -524,72 +522,94 @@ body {
     padding-bottom: 3rem;
     color: #adc913;
 }
-.card-title{
+
+.card-title {
     height: 100px;
     text-shadow: #adc913;
-    
 }
 
 /* boton registro*/
-.modal-content{
-    height: 800px;
+
+.modal-content {
+    height: 720px;
     width: 580px;
     border: #fff solid;
-    
 }
-.modal-body{
-    background-color:black;
-    justify-content:left;
-height: 650px;
+
+.modal-body {
+    background-color: black;
+    justify-content: left;
+    height: 550px;
     width: 0px;
     padding-right: 96.2%;
     border: #fff solid;
-
 }
-.form-group1{
+
+.form-group1 {
     text-align: center;
+    width: 550px;
+}
+.form-group1 a {
+    text-align: center;
+
+}
+.btn-primary {
+    border-radius: 1.5px solid;
+    border-color: #000;
 }
 
-
-.btn-primary{
-    background-color:  rgb(253, 253, 115);
-    border-color:  rgb(253, 253, 115);
+.btn-primary {
+    background-color: rgb(253, 253, 115);
+    border-color: rgb(253, 253, 115);
     color: rgb(12, 12, 12);
     width: 100px;
     height: 35px;
     padding: 1px;
-    margin-top: 5px;
-    
+    margin-top: 10px;
+    border-radius:30px;
+    border-color: #000;
+    border:1.5px solid;
+
 }
 
-.close{
+.close {
     color: #fff;
 }
-.form-group{
+
+.form-group {
     color: #fff;
 }
-.modal-header{
-    background-color:black;
+
+.modal-header {
+    background-color: black;
     color: #fff;
     margin: 0%;
     border: #fff solid;
     padding-left: 25%;
-
 }
-.modal-footer{
-    background-color:black;
-    border-color:  rgb(253, 253, 115);
+
+.modal-footer {
+    background-color: black;
+    border-color: rgb(253, 253, 115);
     border: #fff solid;
 }
 
-.btn-secondary{
+.btn-secondary {
     background-color: rgb(0, 0, 0, 0.6);
     border-color: #fff;
     border-radius: 10px;
-
 }
-.form-control{
+
+.form-control {
     width: 530px;
     padding: 0%;
-    margin: 10px;
+    margin: 0px;
+}
+
+.col-form-label {
+    width: 550px;
+    height: 30px;
+    color: #fff;
+    margin: 0px;
+   
 }
