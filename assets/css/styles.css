@@ -674,3 +674,16 @@ input, textarea {
 .slidernosotros img {
     width: 100%;
 }
+
+.texnosotros{
+    padding:0% 10%;
+    text-align: justify;
+}
+.titulos_nosotros {
+    text-align: center;
+    margin: 0px;
+ 
+}
+.mapanosotros iframe{
+    width: 100%;
+}
