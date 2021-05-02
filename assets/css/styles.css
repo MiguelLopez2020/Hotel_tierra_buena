@@ -31,7 +31,7 @@ body {
     width: 100%;
     margin: auto;
     overflow: hidden;
-    padding: 0;
+    margin-top: 3%;
 }
 
 .slider ul {
@@ -132,7 +132,7 @@ a {
     color: white;
     font-family: 'Lato', sans-serif;
     text-align: center;
-    margin-top: 0px;
+   
     padding: 5px;
     text-decoration: none;
     font-size: 20px;
@@ -188,6 +188,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0px 0px 50px 0px;
+   
 }
 
 .elemento1 {
@@ -217,6 +218,8 @@ footer {
 
 .titulo {
     text-align: center;
+    margin-top:10%;
+    padding-left: 30%;
 }
 
 .ini {
@@ -225,11 +228,13 @@ footer {
 
 .inides {
     margin: 70px;
+    margin-bottom: 10%;
 }
 
 .card-img {
     width: auto;
     height: 500px;
+    
 }
 
 .card-title {
@@ -348,13 +353,13 @@ footer {
     flex-wrap: wrap;
     justify-content:left;
     margin-bottom: 100px;
-    padding-top: 1%;
+   
     
 }
 .elemento1c{
     margin-right: 20%;
 }
-.videoc iframe{
+.videoc{
     border-radius: 20px;
     margin-top: 10px;
 
@@ -374,8 +379,11 @@ footer {
 .conteiner_card_titulo h1{
 color: #000;
 font-size: 40px;
+font-family: 'Coda Caption', sans-serif;
 }
-
+.row {
+    margin-bottom: 5%;
+}
 .conteiner_card_carlos {
     height: 740px;
     background: rgb(243, 243, 237);
@@ -541,7 +549,7 @@ input, textarea {
     text-shadow: #adc913;
 }
 
-/* boton registro*/
+/* boton registro***************************************************************************/
 
 .modal-content {
     height: 720px;
@@ -625,4 +633,44 @@ input, textarea {
     color: #fff;
     margin: 0px;
    
+}
+/* gif*****************************************************/
+.gipromo{
+    padding-top: 10%;
+}
+.gif2{
+    margin-right: 85%;
+   cursor: pointer;
+}
+.gifbienvenidos{
+    
+    margin-left: 45%;
+
+}
+
+
+/* nosotros*****************************************************/
+.slidernosotros {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 6%;}
+
+    
+.slidernosotros ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+}
+
+.slidernosotros li {
+    width: 100%;
+    list-style: none;
+}
+
+.slidernosotros img {
+    width: 100%;
 }
