@@ -644,7 +644,10 @@ input, textarea {
 }
 .gifbienvenidos{
     
-    margin-left: 45%;
+    margin-left: 65%;
+    background-color: rgb(253, 253, 115);
+    margin-bottom: 80px;
+    margin-top: 20px;
 
 }
 
