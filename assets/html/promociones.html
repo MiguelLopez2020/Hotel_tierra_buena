@@ -24,6 +24,7 @@
        <div class="gipromo"> 
         <img src="../img/giphy.gif" width="250px" height="60px" alt="">
        </div>
+       
       
     </div>
     
@@ -92,6 +93,52 @@
         </a>
     </div>
     <div class="card-deck">
+        <div class="elemento3">
+            <button type="button" class="btn btn-primary2" data-toggle="modal" data-target="#exampleModal"
+                data-whatever="@getbootstrap">
+                <b>C</b><br><b>O</b><br><b>N</b><br><b>T</b><br><b>A</b><br><b>C</b><br><b>T</b><br><b>O</b></b></button>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">FORMULARIO DE CONTACTO</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="fm_registro">
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Ingrese su nombre:</label>
+                                <input type="text" class="form-control" id="recipient-name1">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Ingrese su correo:</label>
+                                <input type="email" class="form-control" id="recipient-name2">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Ingrese su telefono:</label>
+                                <input type="number" class="form-control" id="recipient-name3">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Escriba aquí su mensaje:</label>
+                                <textarea name="mensaje" class="form-control1" placeholder=""
+                                    id="recipient-name4"></textarea>
+                            </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <!--<button onclick="registro()"  id="boton1">Registrar</button>  -->
+                        <button onclick="registro()" type="button" class="btn-secondary"
+                            data-dismiss="modal">Enviar</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="card">
             <img src="https://cdn.pixabay.com/photo/2012/04/25/00/52/minivan-41476_960_720.png" class="card-img-top" alt
                 width="200" height="200">
