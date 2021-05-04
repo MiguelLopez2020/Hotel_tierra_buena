@@ -348,6 +348,12 @@ footer {
     flex-wrap: wrap;
     justify-content: left;
     margin-bottom: 100px;
+<<<<<<< HEAD
+=======
+    
+   
+    
+>>>>>>> 308156d8ba84c72ed23907f315172a9511ad2ac1
 }
 
 .elemento1c {
@@ -356,17 +362,26 @@ footer {
 
 .videoc {
     border-radius: 20px;
+<<<<<<< HEAD
     margin-top: 10px;
+=======
+    margin-top: 20px;
+margin-left: 50%;
+>>>>>>> 308156d8ba84c72ed23907f315172a9511ad2ac1
 }
+.videoc iframe{
+    border-radius: 50%;
+    margin-top: 20px;
 
+}
 .conteiner_card_titulo {
-    height: 80px;
+    height: 30px;
     width: 100%;
     background: rgb(253, 253, 115);
     display: flex;
     flex-wrap: initial;
     justify-content: space-around;
-    margin: 15px 0px 5px 0px;
+    margin: 35px 0px 5px 0px;
     padding-right: 3px;
 }
 
@@ -387,6 +402,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 25%;
+    margin-top: 5%;
 }
 
 .card-text {
@@ -629,9 +645,15 @@ input, textarea {
 }
 
 /* gif*****************************************************/
+<<<<<<< HEAD
 
 .gipromo {
     padding-top: 10%;
+=======
+.gipromo{
+    padding-top: 3%;
+    margin-left: 60%;
+>>>>>>> 308156d8ba84c72ed23907f315172a9511ad2ac1
 }
 
 .gif2 {
@@ -725,6 +747,7 @@ input, textarea {
     font-size: 27px;
 }
 
+<<<<<<< HEAD
 .btn-primary2:hover {
     background-color: #2600ff;
 }
@@ -741,4 +764,9 @@ img.a1{
 }
 .carousel-caption{
     color: #000;
+=======
+}
+.carousel-inner {
+    margin-top: 0%;
+>>>>>>> 308156d8ba84c72ed23907f315172a9511ad2ac1
 }
