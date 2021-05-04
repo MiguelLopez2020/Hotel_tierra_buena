@@ -402,6 +402,12 @@ font-family: 'Coda Caption', sans-serif;
     text-align: center;
     padding: 70px;
     margin-left: 300px;
+
+    
+}
+
+.miguel-titulo h2{
+    color: rgb(0, 0, 0);
 }
 
 .card-img-top {
