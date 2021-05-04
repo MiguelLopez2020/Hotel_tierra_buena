@@ -4,11 +4,10 @@ body {
     padding-bottom: 1rem;
     margin: 0.5%;
     border: 5px solid;
-    border-color:white;
+    border-color: white;
     border-radius: 10px;
     background-color: rgb(253, 253, 115);
 }
-
 
 .navBar {
     display: flex;
@@ -132,7 +131,6 @@ a {
     color: white;
     font-family: 'Lato', sans-serif;
     text-align: center;
-   
     padding: 5px;
     text-decoration: none;
     font-size: 20px;
@@ -188,7 +186,6 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0px 0px 50px 0px;
-   
 }
 
 .elemento1 {
@@ -218,7 +215,7 @@ footer {
 
 .titulo {
     text-align: center;
-    margin-top:10%;
+    margin-top: 10%;
     padding-left: 30%;
 }
 
@@ -234,7 +231,6 @@ footer {
 .card-img {
     width: auto;
     height: 500px;
-    
 }
 
 .card-title {
@@ -332,7 +328,6 @@ footer {
 
 /*salon de eventos*************************************************************************/
 
-
 .conteiner_carlos {
     display: flex;
     flex-wrap: wrap;
@@ -351,48 +346,64 @@ footer {
     background: rgb(253, 253, 115);
     display: flex;
     flex-wrap: wrap;
-    justify-content:left;
+    justify-content: left;
     margin-bottom: 100px;
+<<<<<<< HEAD
+=======
+    
    
     
+>>>>>>> 308156d8ba84c72ed23907f315172a9511ad2ac1
 }
-.elemento1c{
+
+.elemento1c {
     margin-right: 20%;
 }
-.videoc{
+
+.videoc {
     border-radius: 20px;
+<<<<<<< HEAD
     margin-top: 10px;
+=======
+    margin-top: 20px;
+margin-left: 50%;
+>>>>>>> 308156d8ba84c72ed23907f315172a9511ad2ac1
+}
+.videoc iframe{
+    border-radius: 50%;
+    margin-top: 20px;
 
 }
-
 .conteiner_card_titulo {
-    height: 80px;
+    height: 30px;
     width: 100%;
     background: rgb(253, 253, 115);
     display: flex;
     flex-wrap: initial;
     justify-content: space-around;
-    margin: 15px 0px 5px 0px;
+    margin: 35px 0px 5px 0px;
     padding-right: 3px;
+}
 
+.conteiner_card_titulo h1 {
+    color: #000;
+    font-size: 40px;
+    font-family: 'Coda Caption', sans-serif;
 }
-.conteiner_card_titulo h1{
-color: #000;
-font-size: 40px;
-font-family: 'Coda Caption', sans-serif;
-}
+
 .row {
     margin-bottom: 5%;
 }
+
 .conteiner_card_carlos {
     height: 740px;
     background: rgb(243, 243, 237);
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
     margin-bottom: 25%;
+    margin-top: 5%;
 }
-
 
 .card-text {
     padding: 0px!important
@@ -549,7 +560,6 @@ input, textarea {
     margin-right: 10%;
 }
 
-
 .card-title {
     height: 100px;
     text-shadow: #adc913;
@@ -576,10 +586,11 @@ input, textarea {
     text-align: center;
     width: 550px;
 }
+
 .form-group1 a {
     text-align: center;
-
 }
+
 .btn-primary {
     border-radius: 1.5px solid;
     border-color: #000;
@@ -593,10 +604,9 @@ input, textarea {
     height: 35px;
     padding: 1px;
     margin-top: 10px;
-    border-radius:30px;
+    border-radius: 30px;
     border-color: #000;
-    border:1.5px solid;
-
+    border: 1.5px solid;
 }
 
 .close {
@@ -638,34 +648,41 @@ input, textarea {
     height: 30px;
     color: #fff;
     margin: 0px;
-   
 }
+
 /* gif*****************************************************/
-.gipromo{
+<<<<<<< HEAD
+
+.gipromo {
     padding-top: 10%;
+=======
+.gipromo{
+    padding-top: 3%;
+    margin-left: 60%;
+>>>>>>> 308156d8ba84c72ed23907f315172a9511ad2ac1
 }
-.gif2{
+
+.gif2 {
     margin-right: 85%;
-   cursor: pointer;
+    cursor: pointer;
 }
-.gifbienvenidos{
-    
+
+.gifbienvenidos {
     margin-left: 65%;
     background-color: rgb(253, 253, 115);
     margin-bottom: 80px;
     margin-top: 20px;
-
 }
 
-
 /* nosotros*****************************************************/
+
 .slidernosotros {
     width: 100%;
     margin: auto;
     overflow: hidden;
-    margin-top: 6%;}
+    margin-top: 6%;
+}
 
-    
 .slidernosotros ul {
     margin: 0;
     padding: 0;
@@ -684,29 +701,30 @@ input, textarea {
     width: 100%;
 }
 
-.texnosotros{
-    padding:0% 10%;
+.texnosotros {
+    padding: 0% 10%;
     text-align: justify;
 }
+
 .titulos_nosotros {
     text-align: center;
     margin: 0px;
- 
 }
-.conteiner_mapanosotros iframe{
-  padding-top: 3%;
-  height: 500px;
-  width: 1000px;
 
+.conteiner_mapanosotros iframe {
+    padding-top: 3%;
+    height: 500px;
+    width: 1000px;
 }
-.conteiner_mapanosotros{
+
+.conteiner_mapanosotros {
     height: 530px;
     width: 100%;
-    
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
 }
+
 /* boton y formulario contacto*****************************************************/
 
 .form-control1 {
@@ -715,11 +733,10 @@ input, textarea {
     padding: 0%;
     margin: 0px;
 }
+
 .elemento3 {
     margin-left: 0px;
-   padding-top: 3%;
-   
-    
+    padding-top: 3%;
 }
 
 .btn-primary2 {
@@ -730,12 +747,32 @@ input, textarea {
     height: 480px;
     padding: 1px;
     margin-top: 0px;
-    border-radius:30px;
+    border-radius: 30px;
     border-color: #000;
-    border:1.5px solid;
+    border: 1.5px solid;
     font-size: 27px;
 }
-.btn-primary2:hover{
-    background-color: #2600ff;
 
+<<<<<<< HEAD
+.btn-primary2:hover {
+    background-color: #2600ff;
+}
+mg.a2{
+    display: flex; /* or inline-flex */
+}
+img.a1{
+    float: right;
+}
+.aaa{
+    margin:100px ;
+    
+    
+}
+.carousel-caption{
+    color: #000;
+=======
+}
+.carousel-inner {
+    margin-top: 0%;
+>>>>>>> 308156d8ba84c72ed23907f315172a9511ad2ac1
 }
