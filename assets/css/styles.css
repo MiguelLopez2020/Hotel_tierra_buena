@@ -3,7 +3,7 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin: 0.5%;
-    border: 5px solid;
+    border: 10px solid;
     border-color: white;
     border-radius: 10px;
     background-color: rgb(253, 253, 115);
@@ -640,20 +640,18 @@ input, textarea {
     margin: 0px;
 }
 
-/*-----------------------*/
+
 
 /* gif*****************************************************/
 
-.gipromo {
-    padding-top: 10%;
-}
+
 
 .gipromo {
     padding-top: 3%;
     margin-left: 60%;
 }
 
-/*-------------------------------------------------*/
+
 
 .gif2 {
     margin-right: 85%;
@@ -748,10 +746,6 @@ input, textarea {
 
 /*----------------------------------*/
 
-.btn-primary2:hover {
-    background-color: #2600ff;
-}
-
 mg.a2 {
     display: flex;
     /* or inline-flex */
@@ -774,3 +768,39 @@ img.a1 {
 }
 
 /*-----------------------------------*/
+.conteiner_terminos_condiciones{
+    width: 100%;
+    height: 100%;
+    margin-top: 1%;
+    padding: 0% 8%;
+    text-align: justify;
+    background-color: rgb(253, 253, 115);
+}
+
+.contenedor_formcontacto{
+    width: 700px;
+    height: 400px;
+    background-color:  rgb(253, 253, 115);
+    border: 6px solid;
+    border-color: black;
+    margin-left: 35%;
+    margin-top: 1%;
+   
+
+}
+#botonct{
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+#titulocont{
+    color: black;
+}
+
+#botonct a{
+   
+    color: black;
+}
+
