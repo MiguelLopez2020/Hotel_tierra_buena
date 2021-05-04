@@ -353,6 +353,7 @@ footer {
     flex-wrap: wrap;
     justify-content:left;
     margin-bottom: 100px;
+    
    
     
 }
@@ -361,18 +362,22 @@ footer {
 }
 .videoc{
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
+margin-left: 50%;
+}
+.videoc iframe{
+    border-radius: 50%;
+    margin-top: 20px;
 
 }
-
 .conteiner_card_titulo {
-    height: 80px;
+    height: 30px;
     width: 100%;
     background: rgb(253, 253, 115);
     display: flex;
     flex-wrap: initial;
     justify-content: space-around;
-    margin: 15px 0px 5px 0px;
+    margin: 35px 0px 5px 0px;
     padding-right: 3px;
 
 }
@@ -391,6 +396,7 @@ font-family: 'Coda Caption', sans-serif;
     flex-wrap: wrap;
     justify-content:space-around;
     margin-bottom: 25%;
+    margin-top: 5%;
 }
 
 
@@ -636,7 +642,8 @@ input, textarea {
 }
 /* gif*****************************************************/
 .gipromo{
-    padding-top: 10%;
+    padding-top: 3%;
+    margin-left: 60%;
 }
 .gif2{
     margin-right: 85%;
@@ -732,4 +739,7 @@ input, textarea {
 .btn-primary2:hover{
     background-color: #2600ff;
 
+}
+.carousel-inner {
+    margin-top: 0%;
 }
